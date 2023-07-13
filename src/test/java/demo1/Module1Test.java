@@ -8,9 +8,6 @@ public class Module1Test {
 		Reporter.log("Checking jenkins");
 		Reporter.log("working");
 	}
-	@Test
-	public void test2() {
-		Reporter.log("done");
-	}
+	
 
 }
