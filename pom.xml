@@ -4,3 +4,34 @@
   <artifactId>demo1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 </project>
+
+<dependencies>
+	  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.9.1</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.7.1</version>
+    
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.1</version>
+</dependency>
+
+<properties>
+	  <maven.compiler.source>1.8</maven.compiler.source>
+
+	  <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+
+</dependencies>
